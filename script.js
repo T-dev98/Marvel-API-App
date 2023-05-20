@@ -7,7 +7,7 @@ let showContainer = document.getElementById("show-container");
 let listContainer = document.querySelector(".list");
 
 let date = new Date();
-console.log(date.getTime());// Output the timestamp in milliseconds to the console
+//console.log(date.getTime());// Output the timestamp in milliseconds to the console
 
 //Destructure an array into three variables: timestamp, apiKey, and hashValue
 const [timestamp, apiKey, hashValue] = [ts, publicKey, hashVal];
